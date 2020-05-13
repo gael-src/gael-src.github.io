@@ -143,5 +143,9 @@ h1 {
 .planet-p {
   color: #ffffff;
   font-size: 50px;
-  margin: 10px;
+  margin: 15px;
+}
+
+.media-links {
+  margin: 50px;
 }
