@@ -1,5 +1,146 @@
+/* COLORS */
+/* 
+GREEN: #60CA91 
+BLUE: #0081ff
+GREY: #99a9be
+DARK GREY: #253446
+BROKEN WHITE: #EFF1F6 
+WHITE: #FFFFFF
+*/
+
+/* BODY */
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+  color: #0081ff;
+}
+
+/* HEADER */
+.header-container {
+  background-color: #60ca91;
+  height: 5vh;
+  max-width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* H1 */
+h1 {
+  color: #ffffff;
+}
+
+/* MAIN TEASER*/
+.main-container {
+  background-color: #ffffff;
+  max-height: 100vh;
+  max-width: 100%;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* PERSONAL PICTURE */
+.personal-picture {
+  border: solid 3px #60ca91;
+  margin: 50px;
+  max-width: 100%;
+}
+
+/* ARROW DOWN */
+.arrow-down {
+  color: #60ca91;
+  font-size: 50px;
+}
+
+/* MAIN WORKS */
+.main-works {
+  max-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* PROJECTS CONTAINER */
+.projects-container {
+  max-width: 100%;
+  min-height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* PROJECT WRAPPER */
+.project-wrapper {
+  background-color: #60ca91;
+  color: #ffffff;
+  margin: 50px;
+  padding: 15px;
+  width: 250px;
+  height: 600px;
+}
+
+/* PROJECT PICTURE */
+.project-picture {
+  width: 100%;
+}
+
+/* INFO WRAPPER  */
+.info-wrapper {
+  max-width: 100%;
+  max-height: 350px;
+  margin: 15px 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.info-wrapper > * {
+  max-width: fit-content;
+}
+
+/* INFO TITLE */
+.info-title {
+  /* color: black; */
+}
+
+/* INFO LINKS */
+.info-links {
+  text-decoration: none;
+  color: #0081ff;
+}
+
+.info-links:hover {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+.footer-container {
+  background-color: #60ca91;
+  display: flex;
+  height: 30vh;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+/* PLANET */
+.planet-p {
+  color: #ffffff;
+  font-size: 50px;
+  margin: 10px;
 }
