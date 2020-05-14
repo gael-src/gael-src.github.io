@@ -22,7 +22,7 @@ body {
 .header-container {
   background-color: #60ca91;
   height: 5vh;
-  padding: 20px;
+  /* padding: 10px; */
   max-width: 100%;
   position: fixed;
   left: 0;
@@ -31,6 +31,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.planet-p-head {
+  color: #ffffff;
+  font-size: 22px;
+  margin: 15px;
 }
 
 /* H1 */
