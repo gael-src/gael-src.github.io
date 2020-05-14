@@ -99,8 +99,14 @@ h1 {
   margin: 50px;
   padding: 15px;
   width: 250px;
-  height: 600px;
+  min-height: 500px;
 }
+
+/* @media screen and (max-width: 1200px) {
+  .project-wrapper {
+    border: solid 2px blue;
+  }
+} */
 
 /* PROJECT PICTURE */
 .project-picture {
@@ -127,6 +133,13 @@ h1 {
 /* INFO TITLE */
 .info-title {
   /* color: black; */
+}
+
+/* DESCRIPTION */
+@media screen and (max-width: 1400px) {
+  .description {
+    display: none;
+  }
 }
 
 /* INFO LINKS */
