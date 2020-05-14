@@ -51,7 +51,7 @@ h1 {
 
 /* PERSONAL PICTURE */
 .personal-picture {
-  border: solid 15px #60ca91;
+  border: solid 3px #60ca91;
   margin: 10px;
 }
 
@@ -97,7 +97,7 @@ h1 {
   background-color: #60ca91;
   color: #ffffff;
   margin: 50px;
-  padding: 15px;
+  padding: 3px;
   width: 250px;
   min-height: 500px;
 }
