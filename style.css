@@ -45,15 +45,32 @@ h1 {
   margin-top: 10vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 
 /* PERSONAL PICTURE */
 .personal-picture {
-  border: solid 3px #60ca91;
+  border: solid 15px #60ca91;
   margin: 10px;
-  max-width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .personal-picture {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .personal-picture {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .personal-picture {
+    max-width: 100px;
+  }
 }
 
 /* ARROW DOWN */
