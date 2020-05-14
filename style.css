@@ -145,11 +145,11 @@ h1 {
 }
 
 /* DESCRIPTION */
-@media screen and (max-width: 1400px) {
+/* @media screen and (max-width: 1400px) {
   .description {
     display: none;
   }
-}
+} */
 
 /* INFO LINKS */
 .info-links {
