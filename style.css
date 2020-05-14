@@ -22,6 +22,7 @@ body {
 .header-container {
   background-color: #60ca91;
   height: 5vh;
+  padding: 20px;
   max-width: 100%;
   position: fixed;
   left: 0;
@@ -34,7 +35,7 @@ body {
 
 /* H1 */
 h1 {
-  color: #ffffff;
+  color: #0081ff;
 }
 
 /* MAIN TEASER*/
