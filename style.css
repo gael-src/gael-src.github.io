@@ -61,19 +61,8 @@ h1 {
   }
 }
 
-/* @media screen and (max-width: 600px) {
-  .personal-picture {
-    max-width: 150px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .personal-picture {
-    max-width: 100px;
-  }
-} */
-
-p {
+/* GREETING TEXT */
+.greeting-text {
   margin: 10px;
 }
 
