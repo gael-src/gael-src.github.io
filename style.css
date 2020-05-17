@@ -100,18 +100,6 @@ body {
   }
 }
 
-@media screen and (max-width: 600px) {
-  .main-container {
-    margin-top: 40vh;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .main-container {
-    margin-top: 35vh;
-  }
-}
-
 /* H1 */
 h1 {
   text-align: center;
