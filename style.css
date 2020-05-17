@@ -188,6 +188,11 @@ h1 {
   font-size: 50px;
 }
 
+/* SECTION TITLE H3 */
+.section-title {
+  font-size: 28px;
+}
+
 /* MAIN WORKS */
 .main-works {
   max-width: 100%;
