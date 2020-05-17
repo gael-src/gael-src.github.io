@@ -39,12 +39,6 @@ body {
   margin: 15px;
 }
 
-/* H1 */
-h1 {
-  color: #0081ff;
-  /* justify-self: right; */
-}
-
 /* MAIN TEASER*/
 .main-container {
   background-color: #ffffff;
@@ -57,10 +51,21 @@ h1 {
   align-items: center;
 }
 
+/* H1 */
+h1 {
+  color: #0081ff;
+  /* justify-self: right; */
+}
+
+/* GREETING CONTAINER */
+.greeting-container {
+  padding: 3px;
+  background-color: #60ca91;
+}
+
 /* PERSONAL PICTURE */
 .personal-picture {
-  border: solid 3px #60ca91;
-  margin: 10px;
+  max-width: 100%;
 }
 
 @media screen and (max-width: 1400px) {
@@ -72,14 +77,27 @@ h1 {
 /* GREETING TEXT WRAPPER */
 .greeting-text-wrapper {
   text-align: center;
+  padding: 30px 0;
 }
 
 /* GREETING TEXT */
 .greeting-text {
-  color: #253446;
+  color: #ffffff;
   margin: 10px;
 }
 
+/* GAEL ABOUT LINK */
+.gael-about-link {
+  text-decoration: none;
+  color: #0081ff;
+  font-size: 16px;
+  margin: 0;
+  padding: 5px 0;
+}
+
+.gael-about-link:hover {
+  text-decoration: underline;
+}
 /* ARROW DOWN */
 .arrow-down {
   color: #60ca91;
