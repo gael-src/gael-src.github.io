@@ -116,7 +116,7 @@ h1 {
 
 /* GREETING CONTAINER */
 .greeting-container {
-  padding: 3px;
+  padding: 0;
   background-color: #60ca91;
   max-width: 500px;
   margin: auto;
@@ -208,7 +208,7 @@ h1 {
   background-color: #60ca91;
   color: #ffffff;
   margin: 50px;
-  padding: 3px;
+  padding: 0;
   width: 250px;
 }
 
