@@ -34,6 +34,31 @@ body {
   z-index: 1;
 }
 
+/* HEADER WRAPPER */
+.header-wrapper-right {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-wrapper-middle {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-wrapper-left {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .planet-p-head {
   color: #ffffff;
   font-size: 22px;
@@ -55,9 +80,10 @@ body {
 
 /* H1 */
 h1 {
-  color: #0081ff;
+  text-align: center;
+  /* color: #0081ff;
   position: absolute;
-  top: 80px;
+  top: 80px; */
 }
 
 /* GREETING CONTAINER */
