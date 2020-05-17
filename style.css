@@ -123,6 +123,13 @@ h1 {
   }
 }
 
+@media screen and (max-width: 300px) {
+  .greeting-container {
+    width: 100%;
+    margin: 50px auto;
+  }
+}
+
 /* PERSONAL PICTURE */
 .personal-picture {
   max-width: 100%;
