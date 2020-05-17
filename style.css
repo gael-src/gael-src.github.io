@@ -63,15 +63,37 @@ h1 {
   background-color: #60ca91;
 }
 
+@media screen and (max-width: 1400px) {
+  .greeting-container {
+    max-width: 100%;
+    margin: 200px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .greeting-container {
+    max-width: 100%;
+    margin: 100px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .greeting-container {
+    max-width: 100%;
+    margin: 50px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .greeting-container {
+    max-width: 100%;
+    margin: 20px;
+  }
+}
+
 /* PERSONAL PICTURE */
 .personal-picture {
   max-width: 100%;
-}
-
-@media screen and (max-width: 1400px) {
-  .personal-picture {
-    max-width: 250px;
-  }
 }
 
 /* GREETING TEXT WRAPPER */
