@@ -111,34 +111,25 @@ h1 {
 .greeting-container {
   padding: 3px;
   background-color: #60ca91;
-  width: 500px;
+  max-width: 500px;
+  margin: auto;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 850px) {
   .greeting-container {
-    width: 400px;
-    margin: auto;
+    margin: 50px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .greeting-container {
+    margin: 30px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .greeting-container {
-    width: 300px;
-    margin: auto;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .greeting-container {
-    width: 250px;
-    margin: auto;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .greeting-container {
-    width: 200px;
-    margin: auto;
+    margin: 10px;
   }
 }
 
