@@ -92,9 +92,9 @@ h1 {
 /* MAIN TEASER*/
 .main-container {
   background-color: #ffffff;
-  min-height: 100vh;
+  min-height: 95vh;
   max-width: 100%;
-  margin-top: 10vh;
+  margin-top: 4vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -115,21 +115,10 @@ h1 {
   margin: auto;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1500px) {
   .greeting-container {
-    margin: 50px;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .greeting-container {
-    margin: 30px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .greeting-container {
-    margin: 10px;
+    max-width: 250px;
+    margin: auto;
   }
 }
 
@@ -208,22 +197,9 @@ h1 {
   width: 250px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
   .project-wrapper {
-    width: 100%;
-    margin: 120px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .project-wrapper {
-    margin: 80px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .project-wrapper {
-    margin: 20px;
+    margin: 50px auto;
   }
 }
 
