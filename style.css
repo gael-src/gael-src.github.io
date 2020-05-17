@@ -67,6 +67,14 @@ body {
   align-items: center;
 }
 
+.gael-src-main-link {
+  text-decoration: none;
+  color: #0081ff;
+  font-size: 16px;
+  margin: 5px;
+  padding: 5px;
+}
+
 .planet-p-head {
   color: #ffffff;
   font-size: 20px;
