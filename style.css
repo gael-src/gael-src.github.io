@@ -21,8 +21,8 @@ body {
 /* HEADER */
 .header-container {
   background-color: #60ca91;
-  height: 5vh;
-  /* padding: 10px; */
+  /* height: 5vh; */
+  /* padding: 5px; */
   max-width: 100%;
   position: fixed;
   left: 0;
@@ -61,8 +61,8 @@ body {
 
 .planet-p-head {
   color: #ffffff;
-  font-size: 22px;
-  margin: 15px;
+  font-size: 20px;
+  margin: 5px 10px;
 }
 
 /* MAIN TEASER*/
@@ -276,7 +276,7 @@ h1 {
 /* PLANET */
 .planet-p {
   color: #ffffff;
-  font-size: 50px;
+  font-size: 33px;
   margin: 15px;
 }
 
