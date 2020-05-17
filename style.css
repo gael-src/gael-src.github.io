@@ -42,6 +42,7 @@ body {
 /* H1 */
 h1 {
   color: #0081ff;
+  /* justify-self: right; */
 }
 
 /* MAIN TEASER*/
@@ -52,7 +53,7 @@ h1 {
   margin-top: 10vh;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
 }
 
@@ -68,8 +69,14 @@ h1 {
   }
 }
 
+/* GREETING TEXT WRAPPER */
+.greeting-text-wrapper {
+  text-align: center;
+}
+
 /* GREETING TEXT */
 .greeting-text {
+  color: #253446;
   margin: 10px;
 }
 
@@ -109,13 +116,24 @@ h1 {
   /* height: auto; */
 }
 
-/* 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
   .project-wrapper {
-    border: solid 2px blue;
+    width: 100%;
+    margin: 120px;
   }
-} 
-*/
+}
+
+@media screen and (max-width: 500px) {
+  .project-wrapper {
+    margin: 80px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .project-wrapper {
+    margin: 20px;
+  }
+}
 
 /* PROJECT PICTURE */
 .project-picture {
