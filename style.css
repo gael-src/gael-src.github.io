@@ -131,7 +131,7 @@ h1 {
 
 @media screen and (max-width: 300px) {
   .greeting-container {
-    width: 100%;
+    max-width: 100%;
     margin: 50px auto;
   }
 }
@@ -200,7 +200,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  padding: 5px;
+  padding: 10px;
 }
 
 /* PROJECT WRAPPER */
