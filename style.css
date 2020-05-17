@@ -34,6 +34,7 @@ body {
 
 @media screen and (max-width: 850px) {
   .header-container {
+    position: relative;
     flex-direction: column;
   }
   .header-container > * {
@@ -98,18 +99,6 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-@media screen and (max-width: 850px) {
-  .main-container {
-    margin-top: 50vh;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .main-container {
-    margin-top: 45vh;
-  }
 }
 
 /* H1 */
