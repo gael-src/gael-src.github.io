@@ -21,8 +21,6 @@ body {
 /* HEADER */
 .header-container {
   background-color: #60ca91;
-  /* height: 5vh; */
-  /* padding: 5px; */
   max-width: 100%;
   position: fixed;
   left: 0;
@@ -79,7 +77,6 @@ body {
 .main-container {
   background-color: #ffffff;
   min-height: 100vh;
-  /* max-height: 100vh; */
   max-width: 100%;
   margin-top: 10vh;
   display: flex;
@@ -103,9 +100,6 @@ body {
 /* H1 */
 h1 {
   text-align: center;
-  /* color: #0081ff;
-  position: absolute;
-  top: 80px; */
 }
 
 /* GREETING CONTAINER */
@@ -205,7 +199,6 @@ h1 {
   margin: 50px;
   padding: 3px;
   width: 250px;
-  /* height: auto; */
 }
 
 @media screen and (max-width: 600px) {
