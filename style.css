@@ -89,6 +89,24 @@ body {
 
 @media screen and (max-width: 850px) {
   .main-container {
+    margin-top: 50vh;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main-container {
+    margin-top: 45vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-container {
+    margin-top: 40vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main-container {
     margin-top: 35vh;
   }
 }
@@ -105,33 +123,34 @@ h1 {
 .greeting-container {
   padding: 3px;
   background-color: #60ca91;
+  width: 500px;
 }
 
 @media screen and (max-width: 1400px) {
   .greeting-container {
-    max-width: 100%;
-    margin: 200px;
+    width: 400px;
+    margin: auto;
   }
 }
 
 @media screen and (max-width: 600px) {
   .greeting-container {
-    max-width: 100%;
-    margin: 100px;
+    width: 300px;
+    margin: auto;
   }
 }
 
 @media screen and (max-width: 500px) {
   .greeting-container {
-    max-width: 100%;
-    margin: 50px;
+    width: 250px;
+    margin: auto;
   }
 }
 
 @media screen and (max-width: 400px) {
   .greeting-container {
-    max-width: 100%;
-    margin: 20px;
+    width: 200px;
+    margin: auto;
   }
 }
 
