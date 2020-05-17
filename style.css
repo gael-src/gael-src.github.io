@@ -95,6 +95,7 @@ h1 {
   min-height: 95vh;
   max-width: 100%;
   margin-top: 4vh;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -186,6 +187,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
+  padding: 5px;
 }
 
 /* PROJECT WRAPPER */
@@ -199,6 +201,13 @@ h1 {
 
 @media screen and (max-width: 850px) {
   .project-wrapper {
+    margin: 50px auto;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .project-wrapper {
+    width: 100%;
     margin: 50px auto;
   }
 }
