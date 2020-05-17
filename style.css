@@ -40,13 +40,14 @@ body {
   }
   .header-container > * {
     margin: 50px 0;
+    min-width: 150px;
   }
 }
 
 /* HEADER WRAPPER */
 .header-wrapper-right {
   height: 100%;
-  width: 10%;
+  width: 15%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,7 +55,7 @@ body {
 
 .header-wrapper-middle {
   height: 100%;
-  width: 80%;
+  width: 70%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,7 +63,7 @@ body {
 
 .header-wrapper-left {
   height: 100%;
-  width: 10%;
+  width: 15%;
   display: flex;
   justify-content: center;
   align-items: center;
