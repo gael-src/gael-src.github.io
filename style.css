@@ -274,6 +274,14 @@ h1 {
 /* FOOTER */
 .footer-container {
   background-color: #60ca91;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container-footer {
   display: flex;
   min-height: 30vh;
   max-width: 100%;
@@ -282,7 +290,7 @@ h1 {
 }
 
 @media screen and (max-width: 850px) {
-  .footer-container {
+  .contact-container-footer {
     flex-direction: column;
   }
 }
