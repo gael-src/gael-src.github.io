@@ -32,23 +32,12 @@ body {
   z-index: 1;
 }
 
-@media screen and (max-width: 850px) {
-  .header-container {
-    position: relative;
-    flex-direction: column;
-  }
-  .header-container > * {
-    margin: 50px 0;
-    min-width: 150px;
-  }
-}
-
 /* HEADER WRAPPER */
 .header-wrapper-right {
   height: 100%;
   width: 10%;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 
@@ -64,7 +53,7 @@ body {
   height: 100%;
   width: 10%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -78,15 +67,57 @@ h1 {
 .gael-src-main-link {
   text-decoration: none;
   color: #0081ff;
-  font-size: 16px;
   margin: 5px;
-  padding: 5px;
+  padding: 5px 10px;
 }
 
-.planet-p-head {
-  color: #ffffff;
-  font-size: 20px;
-  margin: 5px 10px;
+.nav-links {
+  text-decoration: none;
+  color: #0081ff;
+  font-size: 16px;
+  margin: 5px 30px;
+  padding: 5px 10px;
+}
+
+.nav-links:hover {
+  text-decoration: underline;
+}
+
+.nav-links-contact {
+  text-decoration: none;
+  color: #0081ff;
+  font-size: 16px;
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+.nav-links-contact:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 850px) {
+  .header-wrapper-right {
+    display: none;
+  }
+  .header-wrapper-middle {
+    max-width: 100%;
+  }
+  .header-wrapper-left {
+    display: none;
+  }
+  .gael-src-main-link {
+    margin: 2px;
+    padding: 5px;
+  }
+  .nav-links {
+    font-size: 14px;
+    margin: 2px;
+    padding: 5px;
+  }
+  .nav-links-contact {
+    margin: 2px;
+    padding: 5px;
+  }
 }
 
 /* MAIN TEASER*/
