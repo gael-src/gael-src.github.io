@@ -243,8 +243,7 @@ h1 {
 /* SKILLS CONTAINER */
 .skills-container {
   width: 100%;
-  /* min-height: 100vh; */
-  padding: 10px 0 80px 0;
+  padding: 10px;
   display: flex;
 }
 
@@ -257,7 +256,7 @@ h1 {
 /* SKILLS WRAPPER */
 .skills-wrapper {
   width: 33.33%;
-  /* min-height: 90%; */
+  min-height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -377,21 +376,26 @@ p {
 .main-about {
   max-width: 100%;
   min-height: 100vh;
-  padding: 10px 0 80px 0;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.main-about p {
-  max-width: 80%;
+.about-wrapper {
   color: #253446;
+  max-width: 80%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 850px) {
-  .main-about p {
-    max-width: 95%;
+  .about-wrapper {
+    max-width: 100%;
   }
 }
 
@@ -399,6 +403,7 @@ p {
 .footer-container {
   background-color: #60ca91;
   max-width: 100%;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
