@@ -229,6 +229,11 @@ h1 {
   border-right: solid 1px #0081ff;
 } */
 
+.skills-wrapper,
+p {
+  margin: 8px;
+}
+
 @media screen and (max-width: 850px) {
   .skills-wrapper {
     width: 100%;
