@@ -182,6 +182,57 @@ h1 {
   font-size: 28px;
 }
 
+/* MAIN SKILLS */
+.main-skills {
+  color: #ffffff;
+  background-color: #60ca91;
+  max-width: 100%;
+  min-height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* SKILLS CONTAINER */
+.skills-container {
+  width: 100%;
+  /* min-height: 100vh; */
+  display: flex;
+}
+
+@media screen and (max-width: 850px) {
+  .skills-container {
+    flex-direction: column;
+  }
+}
+
+/* SKILLS */
+.skills-wrapper {
+  width: 33.33%;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .skills-wrapper-center {
+  border-left: solid 1px #0081ff;
+  border-right: solid 1px #0081ff;
+} */
+
+@media screen and (max-width: 850px) {
+  .skills-wrapper {
+    width: 100%;
+  }
+  /* .skills-wrapper-center {
+    border-left: none;
+    border-right: none;
+  } */
+}
+
 /* MAIN WORKS */
 .main-works {
   max-width: 100%;
