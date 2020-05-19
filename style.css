@@ -61,6 +61,7 @@ body {
   align-items: center;
 }
 
+/* H1 TITLE */
 h1 {
   font-size: 16px;
   font-weight: normal;
@@ -68,6 +69,7 @@ h1 {
   padding: 0;
 }
 
+/* NAV LINKS */
 .gael-src-main-link {
   text-decoration: none;
   color: #0081ff;
