@@ -408,10 +408,10 @@ p {
 }
 
 /* QUOTE */
-.about-quote {
+.about-quote-wrapper {
   margin: 150px auto;
+  font-size: 13px;
 }
-
 /* FOOTER */
 .footer-container {
   background-color: #60ca91;
