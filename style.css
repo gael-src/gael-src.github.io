@@ -92,7 +92,6 @@ a {
 
 .nav-links:hover {
   text-decoration: underline;
-
 }
 
 .nav-links-contact {
@@ -406,6 +405,11 @@ p {
   .about-wrapper {
     max-width: 100%;
   }
+}
+
+/* QUOTE */
+.about-quote {
+  margin: 150px auto 0;
 }
 
 /* FOOTER */
