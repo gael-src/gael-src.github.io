@@ -197,6 +197,7 @@ a {
 .works-call-to-action {
   color: #0081ff;
   border: solid 2px #0081ff;
+  font-size: 19px;
   text-decoration: none;
   padding: 10px 20px;
   height: fit-content;
