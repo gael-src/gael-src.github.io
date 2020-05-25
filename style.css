@@ -149,7 +149,6 @@ a {
 }
 @media screen and (max-width: 850px) {
   .main-container {
-    border: solid 2px red;
     padding: 10px 70px;
   }
 }
