@@ -141,28 +141,15 @@ a {
   background-color: #ffffff;
   height: 100vh;
   max-width: 100%;
-  padding: 10px 33%;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-@media screen and (max-width: 850px) {
-  .main-container {
-    padding: 10px 70px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .main-container {
-    border: solid 2px red;
-    padding: 10px 33px;
-  }
-}
-
 /* H2 */
 #greeting-h2 {
-  font-size: 50px;
+  font-size: 4.2em;
   margin: 0;
   padding: 0;
   color: #60ca91;
@@ -170,18 +157,11 @@ a {
 
 /* GREETING TEXT WRAPPER */
 .greeting-text-wrapper-up {
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  /* text-align: left */
+  /* margin: 5px; */
 }
 
 .greeting-text-wrapper-middle {
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  padding: 20px 0;
+  margin: 0 0 38px 0;
 }
 
 .greeting-text-wrapper-middle > p {
@@ -190,9 +170,8 @@ a {
 }
 
 .greeting-text-wrapper-down {
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
+  margin: 5px;
+  padding: 5px;
 }
 
 /* GREETING TEXT */
@@ -219,7 +198,8 @@ a {
   color: #0081ff;
   border: solid 2px #0081ff;
   text-decoration: none;
-  padding: 5px;
+  padding: 10px 20px;
+  height: fit-content;
 }
 
 .works-call-to-action:hover {
