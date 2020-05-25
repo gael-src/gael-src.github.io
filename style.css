@@ -149,10 +149,17 @@ a {
 }
 /* H2 */
 #greeting-h2 {
-  font-size: 4.2em;
+  font-size: 66px;
   margin: 0;
   padding: 0;
   color: #60ca91;
+}
+
+@media screen and (max-width: 350px) {
+  #greeting-h2 {
+    word-break: break-all;
+    font-size: 33px;
+  }
 }
 
 /* GREETING TEXT WRAPPER */
@@ -245,15 +252,8 @@ a {
   min-width: 250px;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 350px) {
   .project-wrapper {
-    margin: 50px auto;
-  }
-}
-
-@media screen and (max-width: 300px) {
-  .project-wrapper {
-    width: 100%;
     margin: 50px auto;
   }
 }
@@ -264,7 +264,7 @@ a {
 }
 
 .project-picture:hover {
-  width: 255px;
+  width: 253px;
 }
 
 /* INFO WRAPPER  */
