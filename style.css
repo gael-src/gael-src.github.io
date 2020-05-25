@@ -139,9 +139,8 @@ a {
 /* MAIN TEASER*/
 .main-container {
   background-color: #ffffff;
-  min-height: 95vh;
+  height: 100vh;
   max-width: 100%;
-  margin-top: 4vh;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -158,52 +157,49 @@ a {
 /* H2 */
 #greeting-h2 {
   text-align: center;
-  font-size: 33px;
-}
-
-/* GREETING CONTAINER */
-.greeting-container {
+  font-size: 50px;
+  margin: 0;
   padding: 0;
-  background-color: #60ca91;
-  max-width: 500px;
-  margin: auto;
-}
-
-@media screen and (max-width: 1500px) {
-  .greeting-container {
-    max-width: 250px;
-    margin: auto;
-  }
-}
-
-@media screen and (max-width: 300px) {
-  .greeting-container {
-    max-width: 100%;
-    margin: 50px auto;
-  }
-}
-
-/* PERSONAL PICTURE */
-.personal-picture {
-  max-width: 100%;
+  color: #60ca91;
 }
 
 /* GREETING TEXT WRAPPER */
-.greeting-text-wrapper {
-  text-align: center;
-  padding: 30px 0;
+.greeting-text-wrapper-up {
+  width: 30%;
+  margin: 0 auto;
+  display: flex;
+  /* text-align: left */
+}
+
+.greeting-text-wrapper-middle {
+  width: 30%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 0;
+}
+
+.greeting-text-wrapper-middle >p {
+  margin: 0;
+  padding: 0;
+}
+
+.greeting-text-wrapper-down {
+  width: 30%;
+  margin: 0 auto;
+  display: flex;
 }
 
 /* GREETING TEXT */
 .greeting-text {
-  color: #ffffff;
+  color: #253446;
   margin: 10px;
 }
 
 /* GAEL ABOUT LINK */
 .gael-about-link {
   text-decoration: none;
-  color: #0081ff;
+  color: #253446;
   font-size: 16px;
   margin: 0;
   padding: 5px 0;
@@ -212,16 +208,18 @@ a {
 .gael-about-link:hover {
   text-decoration: underline;
 }
-/* ARROW DOWN */
-.arrow-down {
-  color: #60ca91;
-  font-size: 50px;
+
+/* CALL TO ACTION */
+.works-call-to-action {
+  color: #0081ff;
+  border: solid 2px #0081ff;
+  text-decoration: none;
+  padding: 5px;
 }
 
-@media screen and (max-width: 850px) {
-  .arrow-down {
-    display: none;
-  }
+.works-call-to-action:hover {
+  color: #ffffff;
+  background-color: #0081ff;
 }
 
 /* SECTION TITLE H3 */
@@ -280,7 +278,7 @@ a {
 }
 
 .project-picture:hover {
-  width: 257px;
+  width: 255px;
 }
 
 /* INFO WRAPPER  */
