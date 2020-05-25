@@ -148,15 +148,8 @@ a {
   align-items: center;
 }
 
-@media screen and (max-width: 850px) {
-  .main-container {
-    margin-top: 0;
-  }
-}
-
 /* H2 */
 #greeting-h2 {
-  text-align: center;
   font-size: 50px;
   margin: 0;
   padding: 0;
