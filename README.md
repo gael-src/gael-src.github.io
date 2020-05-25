@@ -1,6 +1,6 @@
 # Hello Human.
 
-I am Gaël. Web Developer in Education. Nice to e-meet you.
+I am Gaël, web developer in education. Nice to e-meet you.
 
 www.linkedin.com/in/gael-src
 
