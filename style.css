@@ -437,7 +437,7 @@ p {
 .footer-container {
   background-color: #212529;
   max-width: 100%;
-  min-height: 50vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
