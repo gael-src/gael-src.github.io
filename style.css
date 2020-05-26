@@ -1,5 +1,10 @@
 /* COLORS */
 /* 
+BLACK: #212529
+WHITE: #f8f9fa
+GREY: #6c757d
+*/
+/* 
 GREEN: #60CA91 
 BLUE: #0081ff
 GREY: #99a9be
@@ -19,12 +24,12 @@ body {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   /* scroll-behavior: smooth; */
-  color: #0081ff;
+  color: #f8f9fa;
 }
 
 /* HEADER */
 .header-container {
-  background-color: #ffffff;
+  background-color: #212529 ;
   max-width: 100%;
   position: fixed;
   left: 0;
@@ -77,14 +82,14 @@ a {
 /* NAV LINKS */
 .gael-src-main-link {
   text-decoration: none;
-  color: #0081ff;
+  color: #f8f9fa;
   margin: 5px;
   padding: 5px 10px;
 }
 
 .nav-links {
   text-decoration: none;
-  color: #0081ff;
+  color: #f8f9fa;
   font-size: 16px;
   margin: 5px 30px;
   padding: 5px 10px;
@@ -96,7 +101,7 @@ a {
 
 .nav-links-contact {
   text-decoration: none;
-  color: #0081ff;
+  color: #f8f9fa;
   font-size: 16px;
   margin: 5px;
   padding: 5px 10px;
@@ -138,7 +143,7 @@ a {
 
 /* MAIN TEASER*/
 .main-container {
-  background-color: #ffffff;
+  background-color: #f8f9fa;
   background-image: url(./assets/jonathan-bean-unsplash.jpg);
   background-size: cover;
   height: 100vh;
@@ -154,7 +159,7 @@ a {
   font-size: 66px;
   margin: 0;
   padding: 0;
-  color: #ffffff;
+  color: #f8f9fa;
 }
 
 @media screen and (max-width: 350px) {
@@ -214,14 +219,14 @@ a {
 
 /* GREETING TEXT */
 .greeting-text {
-  color: #ffffff;
+  color: #f8f9fa;
   margin: 10px;
 }
 
 /* GAEL ABOUT LINK */
 .gael-about-link {
   text-decoration: none;
-  color: #ffffff;
+  color: #f8f9fa;
   font-size: 16px;
   margin: 0;
   padding: 5px 0;
@@ -233,8 +238,8 @@ a {
 
 /* CALL TO ACTION */
 .works-call-to-action {
-  color: #ffffff;
-  border: solid 2px #ffffff;
+  color: #f8f9fa;
+  border: solid 2px #f8f9fa;
   font-size: 19px;
   text-decoration: none;
   padding: 10px 20px;
@@ -242,13 +247,13 @@ a {
 }
 
 .works-call-to-action:hover {
-  color: #0081ff;
-  background-color: #ffffff;
+  color: #212529;
+  background-color: #f8f9fa;
 }
 
 /* SECTION TITLE H3 */
 .section-title {
-  color: #0081ff;
+  color: #f8f9fa;
   font-size: 28px;
 }
 
@@ -276,8 +281,8 @@ a {
 
 /* PROJECT WRAPPER */
 .project-wrapper {
-  background-color: #60ca91;
-  color: #ffffff;
+  background-color: #6c757d ;
+  color: #f8f9fa;
   margin: 50px;
   padding: 0;
   min-width: 250px;
@@ -328,7 +333,7 @@ a {
 /* INFO LINKS */
 .info-links {
   text-decoration: none;
-  color: #0081ff;
+  color: #f8f9fa;
   font-size: 16px;
   margin: 5px;
   padding: 5px;
@@ -340,8 +345,8 @@ a {
 
 /* MAIN SKILLS */
 .main-skills {
-  color: #ffffff;
-  background-color: #60ca91;
+  color: #f8f9fa;
+  background-color: #212529 ;
   max-width: 100%;
   min-height: 100vh;
   padding: 10px;
@@ -379,7 +384,7 @@ a {
 }
 
 /* .skills-wrapper-center {
-  border-left: solid 1px #0081ff;
+  border-left: solid 1px #f8f9fa;
   border-right: solid 1px #0081ff;
 } */
 
@@ -410,7 +415,7 @@ p {
 }
 
 .about-wrapper {
-  color: #253446;
+  color: #212529;
   max-width: 80%;
   min-height: 80vh;
   display: flex;
@@ -432,7 +437,7 @@ p {
 }
 /* FOOTER */
 .footer-container {
-  background-color: #60ca91;
+  background-color: #212529 ;
   max-width: 100%;
   min-height: 50vh;
   display: flex;
@@ -457,7 +462,7 @@ p {
 
 /* PLANET */
 .planet-p {
-  color: #ffffff;
+  color: #f8f9fa;
   font-size: 38px;
   margin: 14px;
 }
