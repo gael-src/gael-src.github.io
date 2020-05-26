@@ -150,16 +150,27 @@ a {
 }
 /* H2 */
 #greeting-h2 {
-  font-size: 66px;
+  font-size: 86px;
   margin: 0;
   padding: 0;
   color: #f8f8f8;
+}
+
+/* GREETING TEXT */
+.greeting-text {
+  color: #f8f8f8;
+  margin: 10px;
+  padding: 0;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 350px) {
   #greeting-h2 {
     word-break: break-all;
     font-size: 33px;
+  }
+  .greeting-text {
+    font-size: 16px;
   }
 }
 
@@ -184,7 +195,7 @@ a {
 
 @media screen and (max-width: 850px) {
   .greeting-text-wrapper-up {
-    margin: 5px 5px 5px 50px;
+    margin: 25vh 5px 5px 50px;
   }
 
   .greeting-text-wrapper-middle {
@@ -199,7 +210,7 @@ a {
 
 @media screen and (max-width: 350px) {
   .greeting-text-wrapper-up {
-    margin: 5px;
+    margin: 25vh 5px 5px 5px;
   }
 
   .greeting-text-wrapper-middle {
@@ -209,12 +220,6 @@ a {
   .greeting-text-wrapper-down {
     margin: 5px;
   }
-}
-
-/* GREETING TEXT */
-.greeting-text {
-  color: #f8f8f8;
-  margin: 10px;
 }
 
 /* GAEL ABOUT LINK */
@@ -234,7 +239,7 @@ a {
 .works-call-to-action {
   color: #1d3557;
   border: solid 2px #1d3557;
-  font-size: 19px;
+  font-size: 18px;
   text-decoration: none;
   padding: 10px 20px;
   height: fit-content;
