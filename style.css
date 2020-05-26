@@ -430,14 +430,14 @@ p {
 
 /* QUOTE */
 .about-quote-wrapper {
-  margin: 150px auto;
+  margin: 150px auto 50px;
   font-size: 13px;
 }
 /* FOOTER */
 .footer-container {
   background-color: #212529;
   max-width: 100%;
-  min-height: 80vh;
+  min-height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -446,7 +446,7 @@ p {
 
 .contact-container-footer {
   display: flex;
-  min-height: 30vh;
+  min-height: 50vh;
   max-width: 100%;
   justify-content: center;
   align-items: center;
