@@ -3,14 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>Gaël</title>
     <style>
       body {
         margin: 0;
         padding: 0;
         background-color: #212529;
-        /* background-color: #f8f9fa; */
-        /* color: #212529; */
+        font-family: "Roboto", sans-serif, Arial, Helvetica, serif;
+        scroll-behavior: smooth;
         color: #f8f9fa;
         box-sizing: border-box;
         display: flex;
@@ -21,15 +25,17 @@
       .gael-src-main-link {
         text-decoration: none;
         color: #f8f9fa;
+        border: solid 2px #f8f9fa;
         font-size: 16px;
-        margin: 5px;
+        margin: 20px;
         padding: 5px 10px;
       }
       h1 {
-          font-size: 18px;
+        font-size: 18px;
       }
       .gael-src-main-link:hover {
-        text-decoration: underline;
+        color: #212529;
+        background-color: #f8f9fa;
       }
       h2 {
         margin: 100px auto 0;
@@ -47,5 +53,8 @@
     </a>
     <h2>My resume:</h2>
     <img src="./assets/gael-cv-2020.jpg" alt="" />
+    <a class="gael-src-main-link" href="index.html">
+      <h1>gael-src.github.io</h1>
+    </a>
   </body>
 </html>

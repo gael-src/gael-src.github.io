@@ -15,7 +15,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif, Arial, Helvetica, serif;
-  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
   color: #f8f9fa;
 }
 
