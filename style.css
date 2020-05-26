@@ -139,20 +139,22 @@ a {
 /* MAIN TEASER*/
 .main-container {
   background-color: #ffffff;
+  background-image: url(./assets/birds-bushes-dusk-evening.jpg);
+  background-size: cover;
   height: 100vh;
   max-width: 100%;
   padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: left;
 }
 /* H2 */
 #greeting-h2 {
   font-size: 66px;
   margin: 0;
   padding: 0;
-  color: #60ca91;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 350px) {
@@ -164,11 +166,11 @@ a {
 
 /* GREETING TEXT WRAPPER */
 .greeting-text-wrapper-up {
-  /* margin: 5px; */
+  margin: 5px 5px 5px 250px;
 }
 
 .greeting-text-wrapper-middle {
-  margin: 0 0 38px 0;
+  margin: 5px 5px 5px 250px;
 }
 
 .greeting-text-wrapper-middle > p {
@@ -177,20 +179,49 @@ a {
 }
 
 .greeting-text-wrapper-down {
-  margin: 5px;
-  padding: 5px;
+  margin: 5px 5px 5px 250px;
+  padding: 50px 0;
+}
+
+@media screen and (max-width: 350px) {
+  .greeting-text-wrapper-up {
+    margin: 5px 5px 5px 50px;
+  }
+
+  .greeting-text-wrapper-middle {
+    margin: 5px 5px 5px 50px;
+  }
+
+  .greeting-text-wrapper-down {
+    margin: 5px 5px 5px 50px;
+    padding: 50px 0;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .greeting-text-wrapper-up {
+    margin: 5px;
+  }
+
+  .greeting-text-wrapper-middle {
+    margin: 5px;
+  }
+
+  .greeting-text-wrapper-down {
+    margin: 5px;
+  }
 }
 
 /* GREETING TEXT */
 .greeting-text {
-  color: #253446;
+  color: #ffffff;
   margin: 10px;
 }
 
 /* GAEL ABOUT LINK */
 .gael-about-link {
   text-decoration: none;
-  color: #253446;
+  color: #ffffff;
   font-size: 16px;
   margin: 0;
   padding: 5px 0;
