@@ -145,7 +145,7 @@ a {
   padding: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: left;
   align-items: left;
 }
 /* H2 */
@@ -165,11 +165,11 @@ a {
 
 /* GREETING TEXT WRAPPER */
 .greeting-text-wrapper-up {
-  margin: 5px 5px 5px 250px;
+  margin: 25vh 5px 5px 15vw;
 }
 
 .greeting-text-wrapper-middle {
-  margin: 5px 5px 5px 250px;
+  margin: 5px 5px 5px 15vw;
 }
 
 .greeting-text-wrapper-middle > p {
@@ -178,7 +178,7 @@ a {
 }
 
 .greeting-text-wrapper-down {
-  margin: 5px 5px 5px 250px;
+  margin: 5px 5px 5px 15vw;
   padding: 50px 0;
 }
 
