@@ -22,7 +22,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif,Arial, Helvetica, serif;
   /* scroll-behavior: smooth; */
   color: #f8f9fa;
 }
