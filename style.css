@@ -3,6 +3,8 @@
 BLACK: 	#181818
 GREY: #686868
 WHITE: 	#F8F8F8
+DARK BLUE: #1d3557
+BRIGHT BLUE: #457b9d
 */
 
 html {
@@ -21,7 +23,7 @@ body {
 
 /* HEADER */
 .header-container {
-  background-color: #181818;
+  background-color: #1d3557;
   max-width: 100%;
   position: fixed;
   left: 0;
@@ -344,7 +346,7 @@ a {
 /* MAIN SKILLS */
 .main-skills {
   color: #f8f8f8;
-  background-color: #181818;
+  background-color: #1d3557;
   max-width: 100%;
   min-height: 100vh;
   padding: 10px;
@@ -435,7 +437,7 @@ p {
 }
 /* FOOTER */
 .footer-container {
-  background-color: #181818;
+  background-color: #1d3557;
   max-width: 100%;
   min-height: 70vh;
   display: flex;
