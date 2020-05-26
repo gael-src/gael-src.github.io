@@ -232,8 +232,8 @@ a {
 
 /* CALL TO ACTION */
 .works-call-to-action {
-  color: #f8f8f8;
-  border: solid 2px #f8f8f8;
+  color: #1d3557;
+  border: solid 2px #1d3557;
   font-size: 19px;
   text-decoration: none;
   padding: 10px 20px;
@@ -241,8 +241,9 @@ a {
 }
 
 .works-call-to-action:hover {
-  color: #457b9d;
+  color: #1d3557;
   background-color: #f8f8f8;
+  border: solid 2px #f8f8f8;
 }
 
 /* SECTION TITLE H3 */
