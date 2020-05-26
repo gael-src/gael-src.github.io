@@ -183,7 +183,7 @@ a {
   padding: 50px 0;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 850px) {
   .greeting-text-wrapper-up {
     margin: 5px 5px 5px 50px;
   }
@@ -233,8 +233,8 @@ a {
 
 /* CALL TO ACTION */
 .works-call-to-action {
-  color: #0081ff;
-  border: solid 2px #0081ff;
+  color: #ffffff;
+  border: solid 2px #ffffff;
   font-size: 19px;
   text-decoration: none;
   padding: 10px 20px;
@@ -242,8 +242,8 @@ a {
 }
 
 .works-call-to-action:hover {
-  color: #ffffff;
-  background-color: #0081ff;
+  color: #0081ff;
+  background-color: #ffffff;
 }
 
 /* SECTION TITLE H3 */
