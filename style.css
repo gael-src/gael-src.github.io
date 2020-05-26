@@ -4,14 +4,6 @@ BLACK: #212529
 WHITE: #f8f9fa
 GREY: #6c757d
 */
-/* 
-GREEN: #60CA91 
-BLUE: #0081ff
-GREY: #99a9be
-DARK GREY: #253446
-BROKEN WHITE: #EFF1F6 
-WHITE: #FFFFFF
-*/
 
 html {
   scroll-behavior: smooth;
@@ -22,14 +14,14 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif,Arial, Helvetica, serif;
+  font-family: "Roboto", sans-serif, Arial, Helvetica, serif;
   /* scroll-behavior: smooth; */
   color: #f8f9fa;
 }
 
 /* HEADER */
 .header-container {
-  background-color: #212529 ;
+  background-color: #212529;
   max-width: 100%;
   position: fixed;
   left: 0;
@@ -281,7 +273,7 @@ a {
 
 /* PROJECT WRAPPER */
 .project-wrapper {
-  background-color: #6c757d ;
+  background-color: #6c757d;
   color: #f8f9fa;
   margin: 50px;
   padding: 0;
@@ -347,7 +339,7 @@ a {
 /* MAIN SKILLS */
 .main-skills {
   color: #f8f9fa;
-  background-color: #212529 ;
+  background-color: #212529;
   max-width: 100%;
   min-height: 100vh;
   padding: 10px;
@@ -438,7 +430,7 @@ p {
 }
 /* FOOTER */
 .footer-container {
-  background-color: #212529 ;
+  background-color: #212529;
   max-width: 100%;
   min-height: 50vh;
   display: flex;
