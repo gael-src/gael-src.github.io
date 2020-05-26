@@ -249,6 +249,11 @@ a {
   font-size: 28px;
 }
 
+.section-title-black {
+  color: #212529;
+  font-size: 28px;
+}
+
 /* MAIN WORKS */
 .main-works {
   max-width: 100%;
