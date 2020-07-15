@@ -427,7 +427,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: left;
 }
 
 @media screen and (max-width: 850px) {
