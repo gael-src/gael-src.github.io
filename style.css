@@ -284,6 +284,7 @@ a {
 /* PROJECT PICTURE */
 .project-picture {
 	width: 250px;
+	height: 250px;
 }
 
 .project-picture:hover {
