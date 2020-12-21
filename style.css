@@ -78,6 +78,7 @@ a {
 .nav-links {
 	text-decoration: none;
 	color: #f8f8f8;
+	font-weight: bold;
 	font-size: 16px;
 	margin: 5px 30px;
 	padding: 5px 10px;
