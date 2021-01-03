@@ -7,6 +7,13 @@ DARK BLUE: #1d3557
 BRIGHT BLUE: #457b9d
 */
 
+/* 
+BLUE: #00b8ff
+WHITE: #fafaff
+DARK GREY: #181818
+LIGHT GREY: #333333
+*/
+
 html {
 	scroll-behavior: smooth;
 }
@@ -18,12 +25,12 @@ body {
 	box-sizing: border-box;
 	font-family: "Roboto", sans-serif, Arial, Helvetica, serif;
 	scroll-behavior: smooth;
-	color: #f8f8f8;
+	color: #fafaff;
 }
 
 /* HEADER */
 .header-container {
-	background-color: #1d3557;
+	background-color: #181818;
 	max-width: 100%;
 	position: fixed;
 	left: 0;
@@ -77,7 +84,8 @@ a {
 
 .nav-links {
 	text-decoration: none;
-	color: #f8f8f8;
+	color: #00b8ff;
+
 	font-weight: bold;
 	font-size: 16px;
 	margin: 5px 30px;
@@ -85,7 +93,7 @@ a {
 }
 
 .nav-links:hover {
-	text-decoration: underline;
+	color: #fafaff;
 }
 
 @media screen and (max-width: 850px) {
@@ -120,8 +128,8 @@ a {
 
 /* MAIN TEASER*/
 .main-container {
-	background-color: #f8f8f8;
-	background-image: url(./assets/jonathan-bean-unsplash.jpg);
+	background-color: #fafaff;
+	background-image: url("./assets/dominik-lange-unsplash.jpg");
 	background-size: cover;
 	height: 100vh;
 	max-width: 100%;
@@ -136,12 +144,12 @@ a {
 	font-size: 33px;
 	margin: 0;
 	padding: 0;
-	color: #1d3557;
+	color: #fafaff;
 }
 
 /* GREETING TEXT */
 .greeting-text {
-	color: #1d3557;
+	color: #fafaff;
 	margin: 10px;
 	padding: 0;
 	font-size: 20px;
@@ -159,11 +167,11 @@ a {
 
 /* GREETING TEXT WRAPPER */
 .greeting-text-wrapper-up {
-	margin: 25vh 5px 0 15vw;
+	margin: 25vh 5px 0 10vw;
 }
 
 .greeting-text-wrapper-middle {
-	margin: 5px 0 5px 15vw;
+	margin: 5px 0 5px 10vw;
 }
 
 .greeting-text-wrapper-middle > p {
@@ -172,7 +180,7 @@ a {
 }
 
 .greeting-text-wrapper-down {
-	margin: 5px 5px 5px 15vw;
+	margin: 5px 5px 5px 10vw;
 	padding: 50px 0;
 }
 
@@ -207,21 +215,21 @@ a {
 
 /* GAEL ABOUT LINK */
 .gael-about-link {
-	color: #1d3557;
+	color: #00b8ff;
 	font-size: 16px;
 	margin: 0;
 	padding: 5px 0;
+	text-decoration: none;
 }
 
 .gael-about-link:hover {
-	color: #f8f8f8;
-	text-decoration: none;
+	color: #fafaff;
 }
 
 /* CALL TO ACTION */
 .works-call-to-action {
-	color: #1d3557;
-	border: solid 2px #1d3557;
+	color: #fafaff;
+	border: solid 2px #fafaff;
 	font-size: 18px;
 	text-decoration: none;
 	padding: 10px 20px;
@@ -229,19 +237,19 @@ a {
 }
 
 .works-call-to-action:hover {
-	color: #1d3557;
-	background-color: #f8f8f8;
-	border: solid 2px #f8f8f8;
+	color: #00b8ff;
+	background-color: #fafaff;
+	border: solid 2px #fafaff;
 }
 
 /* SECTION TITLE H3 */
 .section-title {
-	color: #f8f8f8;
+	color: #fafaff;
 	font-size: 28px;
 }
 
 .section-title-black {
-	color: #1d3557;
+	color: #181818;
 	font-size: 28px;
 }
 
@@ -269,11 +277,16 @@ a {
 
 /* PROJECT WRAPPER */
 .project-wrapper {
-	background-color: #457b9d;
-	color: #f8f8f8;
+	box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+		0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+		0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+		0 100px 80px rgba(0, 0, 0, 0.12);
+	background-color: #333333;
+	color: #fafaff;
 	margin: 50px;
 	padding: 0;
 	min-width: 250px;
+	border-radius: 25px;
 }
 
 @media screen and (max-width: 350px) {
@@ -286,11 +299,12 @@ a {
 .project-picture {
 	width: 250px;
 	height: 250px;
+	border-radius: 25px 25px 0 0;
 }
 
 .project-picture:hover {
 	box-sizing: border-box;
-	border: solid 3px #457b9d;
+	border: solid 3px #333333;
 }
 
 /* INFO WRAPPER  */
@@ -323,20 +337,20 @@ a {
 /* INFO LINKS */
 .info-links {
 	text-decoration: none;
-	color: #f8f8f8;
+	color: #00b8ff;
 	font-size: 16px;
 	margin: 5px;
 	padding: 5px;
 }
 
 .info-links:hover {
-	text-decoration: underline;
+	color: #fafaff;
 }
 
 /* MAIN SKILLS */
 .main-skills {
-	color: #f8f8f8;
-	background-color: #1d3557;
+	color: #fafaff;
+	background-color: #181818;
 	max-width: 100%;
 	min-height: 100vh;
 	padding: 10px;
@@ -427,7 +441,7 @@ p {
 }
 /* FOOTER */
 .footer-container {
-	background-color: #1d3557;
+	background-color: #181818;
 	max-width: 100%;
 	min-height: 70vh;
 	display: flex;
