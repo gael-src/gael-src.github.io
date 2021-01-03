@@ -1,11 +1,4 @@
 /* COLORS */
-/* 
-BLACK: 	#181818
-GREY: #686868
-WHITE: 	#F8F8F8
-DARK BLUE: #1d3557
-BRIGHT BLUE: #457b9d
-*/
 
 /* 
 BLUE: #00b8ff
@@ -23,7 +16,7 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "Roboto", sans-serif, Arial, Helvetica, serif;
+	font-family: "Roboto", sans-serif, Arial, Helvetica;
 	scroll-behavior: smooth;
 	color: #fafaff;
 }
@@ -230,6 +223,7 @@ a {
 .works-call-to-action {
 	color: #fafaff;
 	border: solid 2px #fafaff;
+	border-radius: 8px;
 	font-size: 18px;
 	text-decoration: none;
 	padding: 10px 20px;
@@ -283,10 +277,10 @@ a {
 		0 100px 80px rgba(0, 0, 0, 0.12);
 	background-color: #333333;
 	color: #fafaff;
-	margin: 50px;
+	margin: 50px 80px;
 	padding: 0;
 	min-width: 250px;
-	border-radius: 25px;
+	border-radius: 15px;
 }
 
 @media screen and (max-width: 350px) {
@@ -299,7 +293,7 @@ a {
 .project-picture {
 	width: 250px;
 	height: 250px;
-	border-radius: 25px 25px 0 0;
+	border-radius: 15px 15px 0 0;
 }
 
 .project-picture:hover {
