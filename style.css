@@ -414,6 +414,7 @@ a {
 .skills-wrapper,
 p {
 	margin: 6px 0;
+	line-height: 1.5;
 }
 
 @media screen and (max-width: 850px) {
