@@ -263,9 +263,15 @@ a {
 	min-height: fit-content;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	align-items: center;
-	padding: 10px;
+	padding: 10px 60px;
+}
+
+@media screen and (max-width: 350px) {
+	.projects-container {
+		padding: 10px;
+	}
 }
 
 /* PROJECT WRAPPER */
@@ -276,7 +282,7 @@ a {
 		0 100px 80px rgba(0, 0, 0, 0.12);
 	background-color: #333333;
 	color: #fafaff;
-	margin: 50px 80px;
+	margin: 60px 30px;
 	padding: 0;
 	min-width: 250px;
 	border-radius: 15px;
