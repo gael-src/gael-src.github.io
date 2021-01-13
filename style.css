@@ -305,12 +305,12 @@ a {
 	max-width: 100%;
 	height: auto;
 	margin: 15px 0;
-	padding: 10px 10px 15px 10px;
+	padding: 20px;
 	font-size: 14px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
-	align-items: center;
+	/* align-items: center; */
 }
 
 .info-wrapper > * {
@@ -320,11 +320,16 @@ a {
 /* INFO TITLE */
 .info-title {
 	font-size: 18px;
+	font-weight: bold;
+	margin: 5px 0;
+	padding: 5px 0;
 }
 
 /* DESCRIPTION */
 .description {
-	margin: 5px 0 25px 0;
+	/* margin: 5px 0 25px 0; */
+	margin: 5px 0 10px;
+	padding: 5px 0;
 }
 
 /* INFO LINKS */
@@ -332,8 +337,8 @@ a {
 	text-decoration: none;
 	color: #00b8ff;
 	font-size: 16px;
-	margin: 5px;
-	padding: 5px;
+	margin: 5px 0;
+	padding: 5px 0;
 }
 
 .info-links:hover {
