@@ -111,9 +111,8 @@ a {
 
 /* MAIN TEASER*/
 .main-container {
-	background-color: #fafaff;
-	background-image: url("./assets/dominik-lange-unsplash.jpg");
-	background-size: cover;
+	position: relative;
+	background-color: #000;
 	height: 100vh;
 	max-width: 100%;
 	padding: 10px;
@@ -121,6 +120,14 @@ a {
 	flex-direction: column;
 	justify-content: left;
 	align-items: left;
+}
+.main-container-background {
+	position: absolute;
+	top: 0; left: 0;
+	width: 100%;
+	height: 100%;
+	/*background-image: url("./assets/dominik-lange-unsplash.jpg");*/
+	background-size: cover;
 }
 /* H2 */
 #greeting-h2 {
@@ -163,6 +170,7 @@ a {
 }
 
 .greeting-text-wrapper-down {
+	position: relative;
 	margin: 5px 5px 5px 70px;
 	padding: 50px 0;
 }

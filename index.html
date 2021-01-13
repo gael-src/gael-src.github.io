@@ -33,27 +33,28 @@
 
 		<!-- MAIN GREETING TEASER-->
 		<main class="main-container">
-			<div class="greeting-text-wrapper-up">
+			<div class="main-container-background"></div>
+			<div class="greeting-text-wrapper-up js-stagger">
 				<h2 id="greeting-h2">Hello World!</h2>
 			</div>
 			<div class="greeting-text-wrapper-middle">
-				<p class="greeting-text">
+				<p class="greeting-text js-stagger">
 					<!-- GAEL ABOUT LINK -->
 					I am <a class="gael-about-link" href="#about-id">Gaël</a>, web
 					developer in education. Nice to e-meet you.
 				</p>
-				<p class="greeting-text">
+				<p class="greeting-text js-stagger">
 					<!-- GAEL ABOUT LINK -->
 					My GitHub:
 					<a class="gael-about-link" href="https://github.com/gael-src/"
 						>https://github.com/gael-src/</a
 					>
 				</p>
-				<p class="greeting-text">#OpenToWork</p>
+				<p class="greeting-text js-stagger">#OpenToWork</p>
 			</div>
 			<div class="greeting-text-wrapper-down">
 				<!-- CALL TO ACTION -->
-				<a class="works-call-to-action" href="#works-id">Works</a>
+				<a class="works-call-to-action js-stagger" href="#works-id">Works</a>
 			</div>
 		</main>
 
@@ -381,5 +382,65 @@
 				>
 			</div>
 		</footer>
+
+		<!-- Load GSAP (https://greensock.com/gsap/) -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+		<script>
+			console.log(gsap)
+
+			// Reference de l'element DOM <div class="main-container-background"></div>
+			// https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
+			const element = document.querySelector('.main-container-background')
+			
+			// Petit snippet pour preloader une image en JavaScript
+			// Une fois l'image chargeée, on applique le style CSS avec du JS
+			// Et on anime l'image :)
+			const img = new Image()
+			img.src = './assets/dominik-lange-unsplash.jpg'
+			img.decode().then(() => {
+
+				element.style.backgroundImage = 'url('+ img.src +')'
+				
+				// Animation opacity: 0 à 1
+				gsap.fromTo(element, {
+					autoAlpha: 0
+				}, {
+					autoAlpha: 1,
+					duration: 1,
+					ease: 'power3.out'
+				})
+
+				// Animation de scale
+				gsap.fromTo(element, {
+					scale: 1.25
+				}, {
+					scale: 1,
+					duration: 10,
+					ease: 'power3.out'
+				})
+			})
+
+			// Animation Timeline
+			const timeline = gsap.timeline({
+				paused: true
+			})
+			timeline.fromTo(document.querySelectorAll('.js-stagger'), { // querySelectorAll et pas querySelector pour en choper + que le premier element
+				x: -10,
+				autoAlpha: 0
+			}, {
+				x: 0,
+				autoAlpha: 1,
+				stagger: 0.75,
+				duration: 1,
+				ease: 'power3.inOut'
+			}, 1)
+			timeline.fromTo(document.querySelector('.header-container'), 1, {
+				y: '-100%'
+			}, {
+				y: '0%',
+				ease: 'power2.out'
+			}, 4)
+			timeline.restart()
+		</script>
 	</body>
 </html>
