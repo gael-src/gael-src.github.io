@@ -343,7 +343,7 @@
 				<div class="about-quote-wrapper">
 					<p>
 						"Droids are not good or bad — they are neutral reflections of those
-						who program them."
+						who imprint them."
 					</p>
 					<p>Kuiil, The Mandalorian.</p>
 				</div>
@@ -386,61 +386,80 @@
 		<!-- Load GSAP (https://greensock.com/gsap/) -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
 		<script>
-			console.log(gsap)
+			console.log(gsap);
 
 			// Reference de l'element DOM <div class="main-container-background"></div>
 			// https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
-			const element = document.querySelector('.main-container-background')
-			
+			const element = document.querySelector(".main-container-background");
+
 			// Petit snippet pour preloader une image en JavaScript
 			// Une fois l'image chargeée, on applique le style CSS avec du JS
 			// Et on anime l'image :)
-			const img = new Image()
-			img.src = './assets/dominik-lange-unsplash.jpg'
+			const img = new Image();
+			img.src = "./assets/dominik-lange-unsplash.jpg";
 			img.decode().then(() => {
+				element.style.backgroundImage = "url(" + img.src + ")";
 
-				element.style.backgroundImage = 'url('+ img.src +')'
-				
 				// Animation opacity: 0 à 1
-				gsap.fromTo(element, {
-					autoAlpha: 0
-				}, {
-					autoAlpha: 1,
-					duration: 1,
-					ease: 'power3.out'
-				})
+				gsap.fromTo(
+					element,
+					{
+						autoAlpha: 0,
+					},
+					{
+						autoAlpha: 1,
+						duration: 1,
+						ease: "power3.out",
+					}
+				);
 
 				// Animation de scale
-				gsap.fromTo(element, {
-					scale: 1.25
-				}, {
-					scale: 1,
-					duration: 10,
-					ease: 'power3.out'
-				})
-			})
+				gsap.fromTo(
+					element,
+					{
+						scale: 1.25,
+					},
+					{
+						scale: 1,
+						duration: 10,
+						ease: "power3.out",
+					}
+				);
+			});
 
 			// Animation Timeline
 			const timeline = gsap.timeline({
-				paused: true
-			})
-			timeline.fromTo(document.querySelectorAll('.js-stagger'), { // querySelectorAll et pas querySelector pour en choper + que le premier element
-				x: -10,
-				autoAlpha: 0
-			}, {
-				x: 0,
-				autoAlpha: 1,
-				stagger: 0.75,
-				duration: 1,
-				ease: 'power3.inOut'
-			}, 1)
-			timeline.fromTo(document.querySelector('.header-container'), 1, {
-				y: '-100%'
-			}, {
-				y: '0%',
-				ease: 'power2.out'
-			}, 4)
-			timeline.restart()
+				paused: true,
+			});
+			timeline.fromTo(
+				document.querySelectorAll(".js-stagger"),
+				{
+					// querySelectorAll et pas querySelector pour en choper + que le premier element
+					x: -10,
+					autoAlpha: 0,
+				},
+				{
+					x: 0,
+					autoAlpha: 1,
+					stagger: 0.75,
+					duration: 1,
+					ease: "power3.inOut",
+				},
+				1
+			);
+			timeline.fromTo(
+				document.querySelector(".header-container"),
+				1,
+				{
+					y: "-100%",
+				},
+				{
+					y: "0%",
+					ease: "power2.out",
+				},
+				4
+			);
+			timeline.restart();
 		</script>
 	</body>
 </html>
