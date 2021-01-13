@@ -3,7 +3,7 @@
 /* 
 BLUE: #00b8ff
 WHITE: #fafaff
-DARK GREY: #181818
+DARK GREY: #101010
 LIGHT GREY: #333333
 */
 
@@ -23,7 +23,8 @@ body {
 
 /* HEADER */
 .header-container {
-	background-color: #181818;
+	/* background-color: #101010; */
+	background-color: #101010;
 	max-width: 100%;
 	position: fixed;
 	left: 0;
@@ -48,8 +49,9 @@ body {
 	height: 100%;
 	width: 100%;
 	display: flex;
-	justify-content: center;
+	/* justify-content: center; */
 	align-items: center;
+	margin-left: 60px;
 }
 
 /* .header-wrapper-left {
@@ -81,7 +83,7 @@ a {
 
 	font-weight: bold;
 	font-size: 18px;
-	margin: 5px 30px;
+	margin: 5px 10px;
 	padding: 5px 10px;
 }
 
@@ -160,11 +162,11 @@ a {
 
 /* GREETING TEXT WRAPPER */
 .greeting-text-wrapper-up {
-	margin: 25vh 5px 0 10vw;
+	margin: 25vh 5px 0 70px;
 }
 
 .greeting-text-wrapper-middle {
-	margin: 5px 0 5px 10vw;
+	margin: 5px 0 5px 70px;
 }
 
 .greeting-text-wrapper-middle > p {
@@ -173,7 +175,7 @@ a {
 }
 
 .greeting-text-wrapper-down {
-	margin: 5px 5px 5px 10vw;
+	margin: 5px 5px 5px 70px;
 	padding: 50px 0;
 }
 
@@ -243,7 +245,7 @@ a {
 }
 
 .section-title-black {
-	color: #181818;
+	color: #101010;
 	font-size: 28px;
 }
 
@@ -344,7 +346,7 @@ a {
 /* MAIN SKILLS */
 .main-skills {
 	color: #fafaff;
-	background-color: #181818;
+	background-color: #101010;
 	max-width: 100%;
 	min-height: 100vh;
 	padding: 10px;
@@ -413,7 +415,7 @@ p {
 }
 
 .about-wrapper {
-	color: #181818;
+	color: #101010;
 	max-width: 80%;
 	min-height: 80vh;
 	display: flex;
@@ -435,7 +437,7 @@ p {
 }
 /* FOOTER */
 .footer-container {
-	background-color: #181818;
+	background-color: #101010;
 	max-width: 100%;
 	min-height: 70vh;
 	display: flex;
