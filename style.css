@@ -125,7 +125,7 @@ a {
 /* H2 */
 #greeting-h2 {
 	font-size: 33px;
-	margin: 0;
+	margin: 0 0 20px 0;
 	padding: 0;
 	color: #fafaff;
 }
@@ -359,6 +359,7 @@ a {
 
 .info-title-skills {
 	font-size: 22px;
+	margin: 0 0 20px 0;
 }
 
 /* SKILLS CONTAINER */
@@ -423,6 +424,10 @@ p {
 	}
 }
 
+.about-wrapper > h4 {
+	margin: 0 0 20px 0;
+}
+
 /* QUOTE */
 .about-quote-wrapper {
 	margin: 80px 0 50px;
@@ -448,7 +453,7 @@ p {
 
 .contact-container-footer {
 	display: flex;
-	margin: auto 0 60px 55px;
+	margin: auto 0 60px 60px;
 	min-height: 10vh;
 	max-width: 100%;
 }
