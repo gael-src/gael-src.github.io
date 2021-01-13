@@ -265,6 +265,7 @@ a {
 	flex-direction: column;
 	justify-content: center;
 	/* align-items: center; */
+	background-color: #fafaff;
 }
 
 /* PROJECTS CONTAINER */
@@ -420,6 +421,7 @@ p {
 	flex-direction: column;
 	justify-content: center;
 	/* align-items: center; */
+	background-color: #fafaff;
 }
 
 .about-wrapper {
