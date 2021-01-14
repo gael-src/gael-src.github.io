@@ -120,7 +120,9 @@ gsap.fromTo(
 const about = {
 	container: document.querySelector(".main-about"),
 	wrappers: document.querySelectorAll("#about-id .about-wrapper"),
+	quoteWrapper: document.querySelectorAll("#about-id .about-quote-wrapper"),
 };
+// ABOUT TEXT
 gsap.fromTo(
 	about.wrappers,
 	{
@@ -134,6 +136,23 @@ gsap.fromTo(
 		duration: 1.2, // duration: 0.6,
 		stagger: 0.5,
 		delay: 1.8, // delay: 0.75,
+		ease: "power3.out",
+	}
+);
+// ABOUT QUOTE
+gsap.fromTo(
+	about.quoteWrapper,
+	{
+		x: 50,
+		autoAlpha: 0,
+	},
+	{
+		scrollTrigger: about.container,
+		x: 0,
+		autoAlpha: 1,
+		duration: 2.2, // duration: 0.6,
+		stagger: 0.5,
+		delay: 2.8, // delay: 0.75,
 		ease: "power3.out",
 	}
 );
