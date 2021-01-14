@@ -116,7 +116,7 @@ gsap.fromTo(
 	}
 );
 
-// ABOUT LISTS
+// ABOUT TEXT
 const about = {
 	container: document.querySelector(".main-about"),
 	wrappers: document.querySelectorAll("#about-id .about-wrapper"),
@@ -131,9 +131,9 @@ gsap.fromTo(
 		scrollTrigger: about.container,
 		x: 0,
 		autoAlpha: 1,
-		duration: 1.8, // duration: 0.6,
+		duration: 1.2, // duration: 0.6,
 		stagger: 0.5,
-		delay: 1.75, // delay: 0.75,
+		delay: 1.8, // delay: 0.75,
 		ease: "power3.out",
 	}
 );
@@ -152,7 +152,7 @@ gsap.fromTo(
 		x: 0,
 		autoAlpha: 1,
 		duration: 1.2,
-		delay: 0.9,
+		delay: 0.8,
 		ease: "power3.out",
 	}
 );
@@ -172,9 +172,9 @@ gsap.fromTo(
 		scrollTrigger: contact.container,
 		y: 0,
 		autoAlpha: 1,
-		duration: 2.2, // duration: 0.6,
+		duration: 1.8, // duration: 0.6,
 		stagger: 0.5,
-		delay: 1.75, // delay: 0.75,
+		delay: 1.8, // delay: 0.75,
 		ease: "power3.out",
 	}
 );
