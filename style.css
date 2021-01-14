@@ -28,8 +28,15 @@ body {
 	max-width: 100%;
 	position: fixed;
 	left: 0;
-	top: 0;
 	right: 0;
+	/* top: 0; */
+
+	/* HIDDEN  */
+	top: -50px;
+	display: block;
+	transition: top 0.5s;
+	/* HIDDEN  */
+
 	display: flex;
 	justify-content: center;
 	align-items: center;

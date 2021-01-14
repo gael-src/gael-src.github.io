@@ -207,7 +207,7 @@ img.decode().then(() => {
 	);
 });
 
-// HOME ??????
+// HOME TEXT
 // Animation Timeline
 const timeline = gsap.timeline({
 	paused: true,
@@ -228,16 +228,30 @@ timeline.fromTo(
 	},
 	1
 );
-timeline.fromTo(
-	document.querySelector(".header-container"),
-	1,
-	{
-		y: "-100%",
-	},
-	{
-		y: "0%",
-		ease: "power2.out",
-	},
-	4
-);
+// HEADER
+// timeline.fromTo(
+// 	document.querySelector(".header-container"),
+// 	1,
+// 	{
+// 		y: "-100%",
+// 	},
+// 	{
+// 		y: "0%",
+// 		ease: "power2.out",
+// 	},
+// 	4
+// );
 timeline.restart();
+
+// HEADER
+window.onscroll = function () {
+	headerScrollFunction();
+};
+
+function headerScrollFunction() {
+	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		document.getElementById("nav-container").style.top = "0";
+	} else {
+		document.getElementById("nav-container").style.top = "-50px";
+	}
+}
