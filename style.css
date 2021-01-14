@@ -468,13 +468,13 @@ p {
 .footer-container {
 	background-color: #101010;
 	background-image: url("./assets/elliott-engelmann-unsplash.jpg");
-	/* background-size: cover; */
 
+	/* background-size: cover; */
 	/* Create the parallax scrolling effect */
-	/* background-attachment: fixed;
+	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover; */
+	background-size: cover;
 	/* P  */
 
 	max-width: 100%;
@@ -492,7 +492,7 @@ p {
 
 .contact-container-footer {
 	display: flex;
-	margin: auto 0 60px 60px;
+	margin: auto 0 10px 60px;
 	min-height: 10vh;
 	max-width: 100%;
 }
