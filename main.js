@@ -143,7 +143,7 @@ gsap.fromTo(
 gsap.fromTo(
 	about.quoteWrapper,
 	{
-		x: 50,
+		x: -50,
 		autoAlpha: 0,
 	},
 	{
@@ -163,12 +163,12 @@ const titleContact = document.querySelector("#contact-id .section-title");
 gsap.fromTo(
 	titleContact,
 	{
-		x: 50,
+		y: -50,
 		autoAlpha: 0,
 	},
 	{
 		scrollTrigger: titleContact,
-		x: 0,
+		y: 0,
 		autoAlpha: 1,
 		duration: 1.2,
 		delay: 0.8,
