@@ -3,6 +3,19 @@
 
 gsap.registerPlugin(ScrollTrigger);
 
+// HEADER HIDDEN
+window.onscroll = function () {
+	headerScrollFunction();
+};
+
+function headerScrollFunction() {
+	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		document.getElementById("nav-container").style.top = "0";
+	} else {
+		document.getElementById("nav-container").style.top = "-50px";
+	}
+}
+
 // PARALLAX
 // Animate Parallax (https://codepen.io/GreenSock/pen/JjYPQpN)
 const parallax = document.querySelector(".main-container-parallax");
@@ -242,16 +255,3 @@ timeline.fromTo(
 // 	4
 // );
 timeline.restart();
-
-// HEADER
-window.onscroll = function () {
-	headerScrollFunction();
-};
-
-function headerScrollFunction() {
-	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-		document.getElementById("nav-container").style.top = "0";
-	} else {
-		document.getElementById("nav-container").style.top = "-50px";
-	}
-}
