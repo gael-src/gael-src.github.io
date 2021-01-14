@@ -66,7 +66,7 @@ gsap.fromTo(
 		x: 0,
 		autoAlpha: 1,
 		duration: 1.8, // duration: 0.6,
-		delay: 0.5, // delay: 0.5,
+		delay: 0.8, // delay: 0.5,
 		ease: "power3.out",
 	}
 );
@@ -92,7 +92,7 @@ gsap.fromTo(
 		autoAlpha: 1,
 		duration: 0.6,
 		stagger: 0.5,
-		delay: 0.75,
+		delay: 1.8,
 		ease: "power3.out",
 	}
 );
@@ -170,8 +170,8 @@ gsap.fromTo(
 		scrollTrigger: titleContact,
 		y: 0,
 		autoAlpha: 1,
-		duration: 1.2,
-		delay: 0.8,
+		duration: 1.8,
+		delay: 1.8,
 		ease: "power3.out",
 	}
 );
@@ -192,8 +192,8 @@ gsap.fromTo(
 		y: 0,
 		autoAlpha: 1,
 		duration: 1.8, // duration: 0.6,
-		stagger: 0.5,
-		delay: 1.8, // delay: 0.75,
+		stagger: 0.7,
+		delay: 3.2, // delay: 0.75,
 		ease: "power3.out",
 	}
 );
