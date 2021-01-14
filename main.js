@@ -30,6 +30,24 @@ gsap.to(parallax, {
 });
 
 // WORKS
+// WORKS TITLE
+const titleWorks = document.querySelector("#works-id .section-title-works");
+gsap.fromTo(
+	titleWorks,
+	{
+		x: -50,
+		autoAlpha: 0,
+	},
+	{
+		scrollTrigger: titleWorks,
+		x: 0,
+		autoAlpha: 1,
+		duration: 3.8,
+		delay: 0.8,
+		ease: "power3.out",
+	}
+);
+// WORKS PROJECTS
 // Animate projets au scroll
 // (loop sur tout les elements, et on les anime un par un, avec un delay pour chacun baseé sur l'index)
 const projects = document.querySelectorAll(".project-wrapper");
@@ -54,15 +72,15 @@ projects.forEach((box, index) => {
 // SKILLS
 // SKILLS TITLE
 // Animate "Skills" title en entrée dans le viewport
-const title = document.querySelector("#skills-id .section-title");
+const titleSkills = document.querySelector("#skills-id .section-title");
 gsap.fromTo(
-	title,
+	titleSkills,
 	{
 		x: 50,
 		autoAlpha: 0,
 	},
 	{
-		scrollTrigger: title,
+		scrollTrigger: titleSkills,
 		x: 0,
 		autoAlpha: 1,
 		duration: 1.8, // duration: 0.6,
