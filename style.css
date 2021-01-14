@@ -464,7 +464,15 @@ p {
 .footer-container {
 	background-color: #101010;
 	background-image: url("./assets/elliott-engelmann-unsplash.jpg");
-	background-size: cover;
+	/* background-size: cover; */
+
+	/* Create the parallax scrolling effect */
+	/* background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; */
+	/* P  */
+
 	max-width: 100%;
 	min-height: 90vh;
 	display: flex;
