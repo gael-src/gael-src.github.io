@@ -4,7 +4,7 @@ window.addEventListener("load", function () {
 	// loaderWrapper.style.display = "none";
 	setTimeout(function () {
 		loaderWrapper.parentElement.removeChild(loaderWrapper);
-	}, 800);
+	}, 900);
 });
 
 // $(window).on("load", function () {
