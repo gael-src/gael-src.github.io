@@ -314,6 +314,11 @@ a {
 	color: #fafaff;
 }
 
+.gael-github-link {
+	padding: 5px 80px 5px 5px;
+	font-size: 28px;
+}
+
 /* CALL TO ACTION */
 .works-call-to-action {
 	color: #fafaff;
