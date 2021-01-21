@@ -126,7 +126,7 @@ body {
 	width: 100%;
 	display: flex;
 	align-items: center;
-	margin-left: 55px;
+	margin-left: 70px;
 }
 
 @media screen and (max-width: 350px) {
@@ -156,8 +156,8 @@ a {
 
 	font-weight: bold;
 	font-size: 18px;
-	margin: 5px 15px;
-	padding: 5px 10px;
+	margin: 5px;
+	padding: 5px;
 }
 
 .nav-links:hover {
@@ -576,7 +576,7 @@ p {
 
 .contact-container-footer {
 	display: flex;
-	margin: auto 0 10px 60px;
+	margin: auto 0 10px 70px;
 	min-height: 10vh;
 	max-width: 100%;
 }
@@ -589,6 +589,7 @@ p {
 }
 
 .media-links {
-	margin: 20px;
+	margin: 5px;
+	padding: 5px;
 	font-size: 18px;
 }
