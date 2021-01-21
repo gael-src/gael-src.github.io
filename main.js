@@ -1,20 +1,33 @@
+// IMAGE LOADER
+let loaderWrapper = document.querySelector(".image-loader-wrapper");
+window.addEventListener("load", function () {
+	// loaderWrapper.style.display = "none";
+	setTimeout(function () {
+		loaderWrapper.parentElement.removeChild(loaderWrapper);
+	}, 800);
+});
+
+// $(window).on("load", function () {
+// 	$(".image-loader-wrapper").fadeOut("slow");
+// });
+
 // GSAP ANIMATIONS
 // console.log(gsap);
 
 gsap.registerPlugin(ScrollTrigger);
 
 // HEADER HIDDEN
-window.onscroll = function () {
-	headerScrollFunction();
-};
+// window.onscroll = function () {
+// 	headerScrollFunction();
+// };
 
-function headerScrollFunction() {
-	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-		document.getElementById("nav-container").style.top = "0";
-	} else {
-		document.getElementById("nav-container").style.top = "-50px";
-	}
-}
+// function headerScrollFunction() {
+// 	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+// 		document.getElementById("nav-container").style.top = "0";
+// 	} else {
+// 		document.getElementById("nav-container").style.top = "-50px";
+// 	}
+// }
 
 // PARALLAX
 // Animate Parallax (https://codepen.io/GreenSock/pen/JjYPQpN)
@@ -189,7 +202,7 @@ gsap.fromTo(
 		y: 0,
 		autoAlpha: 1,
 		duration: 1.8,
-		delay: 1.8,
+		delay: 1.4,
 		ease: "power3.out",
 	}
 );
@@ -211,7 +224,7 @@ gsap.fromTo(
 		autoAlpha: 1,
 		duration: 1.8, // duration: 0.6,
 		stagger: 0.7,
-		delay: 3.2, // delay: 0.75,
+		delay: 1.8, // delay: 0.75,
 		ease: "power3.out",
 	}
 );
@@ -279,16 +292,16 @@ timeline.fromTo(
 	1
 );
 // HEADER
-// timeline.fromTo(
-// 	document.querySelector(".header-container"),
-// 	1,
-// 	{
-// 		y: "-100%",
-// 	},
-// 	{
-// 		y: "0%",
-// 		ease: "power2.out",
-// 	},
-// 	4
-// );
+timeline.fromTo(
+	document.querySelector(".header-container"),
+	1,
+	{
+		y: "-100%",
+	},
+	{
+		y: "0%",
+		ease: "power2.out",
+	},
+	4
+);
 timeline.restart();
