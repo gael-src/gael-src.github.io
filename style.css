@@ -20,13 +20,22 @@ body {
 	scroll-behavior: smooth;
 	color: #fafaff;
 	background-color: #101010;
+	overflow-y: auto;
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
+@media screen and (max-width: 450px) {
+	body {
+		width: 100%;
+	}
 }
 
 /* IMAGE LOADER */
 .image-loader-wrapper {
 	/* border: solid 2px red; */
 	height: 100%;
-	max-width: 100%;
+	width: 100%;
 	position: absolute;
 	z-index: 2;
 	top: 0;
@@ -38,6 +47,7 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+
 .loader {
 	display: inline-block;
 	width: 30px;
@@ -321,6 +331,7 @@ a {
 }
 
 .gael-github-link {
+	max-width: 100%;
 	padding: 5px 80px 5px 5px;
 	font-size: 28px;
 }
@@ -328,6 +339,7 @@ a {
 	.gael-github-link {
 		padding: 5px;
 		font-size: 22px;
+		display: none;
 	}
 }
 
@@ -540,7 +552,7 @@ p {
 
 .about-wrapper {
 	color: #101010;
-	max-width: 100%;
+	width: 100%;
 	min-height: 80vh;
 	margin: 80px;
 	display: flex;
@@ -551,7 +563,7 @@ p {
 
 @media screen and (max-width: 850px) {
 	.about-wrapper {
-		max-width: 100%;
+		/* max-width: 100%; */
 		margin: 10px;
 	}
 }
@@ -562,6 +574,7 @@ p {
 
 /* QUOTE */
 .about-quote-wrapper {
+	width: 100%;
 	margin: 80px 0 50px;
 	font-size: 13px;
 }
