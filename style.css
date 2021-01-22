@@ -120,6 +120,12 @@ body {
 	z-index: 1;
 }
 
+@media screen and (max-width: 350px) {
+	.header-container {
+		flex-direction: column;
+	}
+}
+
 /* HEADER WRAPPER */
 .header-wrapper-middle {
 	height: 100%;
