@@ -552,7 +552,7 @@ p {
 
 .about-wrapper {
 	color: #101010;
-	width: 100%;
+	max-width: 100%;
 	min-height: 80vh;
 	margin: 80px;
 	display: flex;
