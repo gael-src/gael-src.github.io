@@ -48,12 +48,12 @@ const titleWorks = document.querySelector("#works-id .section-title-works");
 gsap.fromTo(
 	titleWorks,
 	{
-		x: -50,
+		y: -50,
 		autoAlpha: 0,
 	},
 	{
 		scrollTrigger: titleWorks,
-		x: 0,
+		y: 0,
 		autoAlpha: 1,
 		duration: 3.8,
 		delay: 0.8,
@@ -89,12 +89,12 @@ const titleSkills = document.querySelector("#skills-id .section-title");
 gsap.fromTo(
 	titleSkills,
 	{
-		x: 50,
+		y: -50,
 		autoAlpha: 0,
 	},
 	{
 		scrollTrigger: titleSkills,
-		x: 0,
+		y: 0,
 		autoAlpha: 1,
 		duration: 1.8, // duration: 0.6,
 		delay: 0.8, // delay: 0.5,
@@ -114,12 +114,12 @@ const skills = {
 gsap.fromTo(
 	skills.wrappers,
 	{
-		x: 50,
+		y: 50,
 		autoAlpha: 0,
 	},
 	{
 		scrollTrigger: skills.container,
-		x: 0,
+		y: 0,
 		autoAlpha: 1,
 		duration: 0.6,
 		stagger: 0.5,
@@ -134,12 +134,12 @@ const titleAbout = document.querySelector("#about-id .section-title-about");
 gsap.fromTo(
 	titleAbout,
 	{
-		x: 50,
+		y: -50,
 		autoAlpha: 0,
 	},
 	{
 		scrollTrigger: titleAbout,
-		x: 0,
+		y: 0,
 		autoAlpha: 1,
 		duration: 1.2,
 		delay: 0.8,
@@ -157,12 +157,12 @@ const about = {
 gsap.fromTo(
 	about.wrappers,
 	{
-		x: 50,
+		y: 50,
 		autoAlpha: 0,
 	},
 	{
 		scrollTrigger: about.container,
-		x: 0,
+		y: 0,
 		autoAlpha: 1,
 		duration: 1.2, // duration: 0.6,
 		stagger: 0.5,
@@ -174,12 +174,12 @@ gsap.fromTo(
 gsap.fromTo(
 	about.quoteWrapper,
 	{
-		x: -50,
+		y: 50,
 		autoAlpha: 0,
 	},
 	{
 		scrollTrigger: about.container,
-		x: 0,
+		y: 0,
 		autoAlpha: 1,
 		duration: 2.2, // duration: 0.6,
 		stagger: 0.5,
