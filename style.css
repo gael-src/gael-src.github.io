@@ -20,9 +20,9 @@ body {
 	scroll-behavior: smooth;
 	color: #fafaff;
 	background-color: #101010;
-	/* overflow-y: auto;
-	overflow: scroll;
-	-webkit-overflow-scrolling: touch; */
+	overflow-y: auto;
+	/* overflow: scroll; */
+	-webkit-overflow-scrolling: touch;
 }
 
 @media screen and (max-width: 450px) {
