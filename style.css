@@ -240,6 +240,7 @@ a {
   height: 100%;
   /*background-image: url("./assets/dominik-lange-unsplash.jpg");*/
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   will-change: transform;
 }

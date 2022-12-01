@@ -242,6 +242,7 @@ const img = new Image();
 // img.src = "./assets/dominik-lange-unsplash.jpg";
 // img.src = "./assets/francesco-ungaro-unsplash.jpg";
 img.src = "./assets/ashwini-chaudhary-monty-unsplash.jpg";
+// img.src = "./assets/";
 img.decode().then(() => {
   element.style.backgroundImage = "url(" + img.src + ")";
 
