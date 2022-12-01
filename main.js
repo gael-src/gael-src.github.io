@@ -239,7 +239,9 @@ const element = document.querySelector(".main-container-background");
 // Une fois l'image chargeée, on applique le style CSS avec du JS
 // Et on anime l'image :)
 const img = new Image();
-img.src = "./assets/dominik-lange-unsplash.jpg";
+// img.src = "./assets/dominik-lange-unsplash.jpg";
+// img.src = "./assets/francesco-ungaro-unsplash.jpg";
+img.src = "./assets/ashwini-chaudhary-monty-unsplash.jpg";
 img.decode().then(() => {
   element.style.backgroundImage = "url(" + img.src + ")";
 
